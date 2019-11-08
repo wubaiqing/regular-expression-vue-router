@@ -13,5 +13,5 @@
 ![](./images/4.jpg)
 
 学习资料
-[JSON5](https://github.com/json5/json5)
+[JSON5](https://github.com/json5/json5)  
 [AJV](https://github.com/epoberezkin/ajv)
