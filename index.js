@@ -1,4 +1,5 @@
 const fs = require("fs");
+const json5 = require('json5')
 const content = fs.readFileSync("data.txt");
 let data = content.toString();
 
@@ -7,12 +8,11 @@ data = data
   .replace("/*", "")
   .replace("*/", "")
   .replace(/[\*]/g, "")
-  .replace(/\/\/(.*)/);
 
 // @router('user/list/:type') 匹配这种模式
 const singleLineMode = data.match(/@route\((.*)\)/g);
 console.log(singleLineMode);
 
 // @router({}) 匹配这种模式
-const multilineMode = data.match(/@route\(\{[\S\s]*\}\)/g);
-console.log(multilineMode);
+const multiLineMode = data.match(/@route\(\{[\S\s]*\}\)/g);
+console.log(multiLineMode);
