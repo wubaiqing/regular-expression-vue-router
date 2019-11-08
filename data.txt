@@ -1,0 +1,21 @@
+/**
+ * 在会员列表文件中，声明该页面，对应的路由信息。
+ * 支持一个页面有多个路由。
+ *
+ * 简单配置：
+ * 第二个参数将作为 alias
+ * @route('user/list/:type')
+ * @route('user/list', 'user')
+ *
+ * 如果需要额外的路由配置，可以使用对象形式的配置方式：
+ * @route({
+ *   path: 'user/list',
+ *   name: 'user-list',
+ *   alias: 'user',
+ *   // 注意：这里 meta 字段的值只支持一层对象
+ *   meta: {
+ *     requiresAuth: true,
+ *     userType: 'member',
+ *   }
+ * })
+ */
