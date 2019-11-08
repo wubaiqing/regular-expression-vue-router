@@ -12,6 +12,6 @@
 四、匹配对象模式
 ![](./images/4.jpg)
 
-学习资料
+# 学习资料
 [JSON5](https://github.com/json5/json5)  
 [AJV](https://github.com/epoberezkin/ajv)
