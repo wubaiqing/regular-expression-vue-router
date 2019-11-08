@@ -1,4 +1,4 @@
-# 路由正则表达式版本优化思路
+# [vue-route-webpack-plugin](https://github.com/xiyun-international/vue-route-webpack-plugin) 正则表达式版，优化思路
 
 一、先删除匹配到的注释
 ![](./images/1.jpg)
